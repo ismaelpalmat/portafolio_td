@@ -1,0 +1,73 @@
+.hero{
+    background-image: url("../img/bg-hero.jpg");
+    background-repeat: no-repeat;   
+    background-size: cover;
+    background-position: center;
+}
+
+.images{
+    width: 200px;  /* Ajusta el ancho */
+    height: 200px; /* Ajusta la altura */
+}
+
+#cards{
+    padding: 100px;
+}
+
+#cards article {
+    text-align: left;
+    display: inline-block;
+    margin: 0px 50px;
+    font-size: 35px;
+}
+.trabajo{
+    background-color: #56C0E0;
+    padding: 100px;
+}
+
+div .col{
+    text-align: left;
+}
+
+div .col h5{
+    font-size: 23px;
+
+}
+
+.card{
+    text-align: left;
+}
+
+.row{
+    padding-top: 28px;
+    padding-bottom: 25px;
+}
+
+.card img{
+
+    height:230px ;
+}
+
+#contactame h2{
+    font-size: 60px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+form{
+    text-align: left;
+}
+
+form button{
+    padding: 20px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+}
+
+footer h2{
+    padding-top: 20px;
+}
