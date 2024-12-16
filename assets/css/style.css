@@ -37,7 +37,7 @@ body {
 .trabajo{
     background-color: #0e0e1f;
     border-radius: 50px; /* Bordes redondeados */
-    padding: 40px;
+    padding: 30px;
     padding-bottom: 100px;
 }
 
@@ -61,7 +61,7 @@ div .col h5{
 
 .card img{
 
-    height:230px ;
+    /* height:230px; */
 }
 
 #contactame h2{
