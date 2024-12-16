@@ -1,8 +1,21 @@
-.hero{
+body {
+    font-family: 'Roboto', sans-serif; /* Asegúrate de que el nombre de la fuente coincida */
+}
+.hero {
     background-image: url("../img/bg-hero.jpg");
-    background-repeat: no-repeat;   
-    background-size: cover;
-    background-position: center;
+    background-size: cover; /* Asegura que cubra todo el contenedor */
+    background-position: center center; /* Centra la imagen */
+    background-attachment: fixed; /* Efecto de paralaje */
+    height: 80vh; /* O usa un valor fijo como 600px */
+    max-height: 800px; /* Evita que la imagen sea demasiado alta */
+}
+
+.titulo{
+    padding-top: 50px;
+}
+
+.titulo2{
+    padding-top: 90px;
 }
 
 .images{
@@ -20,9 +33,12 @@
     margin: 0px 50px;
     font-size: 35px;
 }
+
 .trabajo{
-    background-color: #56C0E0;
-    padding: 100px;
+    background-color: #0e0e1f;
+    border-radius: 50px; /* Bordes redondeados */
+    padding: 40px;
+    padding-bottom: 100px;
 }
 
 div .col{
@@ -63,7 +79,7 @@ form button{
 }
 
 footer{
-    background-color: black;
+    background-color: #0e0e1f;
     color: white;
     padding: 10px;
 }

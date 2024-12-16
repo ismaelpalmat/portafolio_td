@@ -4,11 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/de2c725689.js" crossorigin="anonymous"></script>
-
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/css/style.css">
     <title>Ismael Palma Téllez</title>
 </head>
@@ -24,9 +20,9 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div class="navbar-nav ms-auto">
-            <a class="nav-link active text-white" aria-current="page" href="#">Acerca de mi</a>
-            <a class="nav-link text-white" href="#">Trabajos</a>
-            <a class="nav-link text-white" href="#">Contactos</a>
+            <a class="nav-link active text-white" aria-current="page" href="#acerca-de-mi">Acerca de mí</a>
+            <a class="nav-link text-white" href="#mis-trabajos">Trabajos</a>
+            <a class="nav-link text-white" href="#contacto">Contacto</a>
             </div>
         </div>
         </div>
@@ -39,12 +35,13 @@
         <div class="container ms-auto">
             <div class="text-white">
                 <div class="row my-5">
-                    <div class="col-md-6">
+                    <div class="col-md-4">
                     </div>
-                        <div class="col-md-6 my-5">
+                        <div class="titulo col-md-8 my-5">
                             <h1 class="display-1 fw-bold">Ismael Palma Téllez</h1>
-                            <button type="button" class="btn btn-outline-info text-white mx-2">Trabajos</button>
-                            <button type="button" class="btn btn-info text-white mx-2">Contacto</button>
+                            <h2 class="">Desarrollo de aplicaciones en Rails. <p> Diseño UX/UI. Artes Visuales.</h2>
+                            <!-- <button type="button" class="btn btn-outline-info text-white mx-2">Trabajos</button>
+                            <button type="button" class="btn btn-info text-white mx-2">Contacto</button> -->
                         </div>
 
                     </div>
@@ -55,13 +52,11 @@
     <!-- termino header -->
      <!-- ------------------------------ -->
     <!-- seccion1 -->
-    <section class=" text-center container">
+    <section id="acerca-de-mi" class=" text-center container">
 
-       <h2 class="display-3 fw-bold my-5">Acerca de mi</h2>
-       <p>Soy estudiante Front End Developer 🧑‍💻, Junior UX Designer 📱🧠 y Artista Visual 👨‍🎨🖼
-        <br><br>
-
-        Entusiasta de la tecnología y recién llegado al mundo de la programación, completé el bootcamp de UX inicial en Coderhouse y actualmente estoy cursando el de Ruby on Rails FullStack Developer en Talento Digital para Chile. Durante este programa, adquirí habilidades fundamentales en Ruby on Rails, demostrando mi capacidad para aprender rápidamente y enfrentar desafíos con determinación. Estoy ansioso por aplicar estas habilidades en proyectos innovadores y emocionado por la oportunidad de seguir aprendiendo y creciendo en el campo tecnológico. </p>
+       <h2 class="titulo2 display-3 fw-bold my-5">Acerca de mí</h2>
+       <h3 class="">Soy estudiante Front End Developer 🧑‍💻 <p> Junior UX Designer 📱🧠 y Artista Visual 👨‍🎨🖼</h3>
+        Me defino como un entusiasta de la tecnología. Recién llego al mundo de la programación, demostrando mi capacidad para aprender rápidamente y enfrentar desafíos con determinación. Estoy ansioso por aplicar estas habilidades en proyectos innovadores y emocionado por la oportunidad de seguir aprendiendo y creciendo en el campo tecnológico. </p>
     <div class="row">
         
 
@@ -72,21 +67,20 @@
                 <img class="images mb-3" src="assets/icons/logo1.svg" alt="">
                 <h3 class="my-3">Ruby on Rails</h3>
                 <p class="my-3">
-                    Completé el bootcamp de UX inicial en Coderhouse y actualmente estoy cursando el de Ruby on Rails FullStack Developer en Talento Digital para Chile
+                  Actualmente estoy cursando el bootcamp de Ruby on Rails FullStack Developer en <strong>Talento Digital para Chile.</strong>
                 </p>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <img class="images mb-3" src="assets/icons/logo2.svg" alt="">
                 <h3 class="my-3">Diseño UX/UI</h3>
                 <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.
-                </p>
+                  Completé el bootcamp de <strong>UX/UI inicial y avanzado en Coderhouse.</strong> Logrando llevar a cabo prototipos en baja hasta funcionales</p>
             </div>
             <div class="col-md-4 d-flex flex-column align-items-center">
                 <img class="images mb-3" src="assets/icons/logo3.svg" alt="">
                 <h3 class="my-3">Bellas artes</h3>
                 <p class="my-3">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.
+                    Estudié <strong>Artes Visuales en la Universidad de Chile</strong>, donde logré el grado de Licenciado.
                 </p>
             </div>
         </div>
@@ -95,8 +89,8 @@
     <!-- mis trabajos -->
 <!-- titulo -->
     </div>
-    <section class="trabajo text-center">
-        <h2 class="display-3 fw-bold my-5 text-white">Mis trabajos</h2>
+    <section id="mis-trabajos" class="trabajo text-center">
+        <h2 class="titulo2 display-3 fw-bold my-5 text-white">Mis trabajos</h2>
         
 <!-- cards -->
         <div>
@@ -105,7 +99,7 @@
                 <div class="card">
                     <img src="./assets/img/card-1.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title fw-bold">Asado en la Patagonia</h5>
+                      <h5 class="card-title fw-bold">Trabajo 1</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
                       <button type="button" class="btn btn-outline-info">Ver más</button>
                     </div>
@@ -117,7 +111,7 @@
                 <div class="card">
                     <img src="./assets/img/card-2.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title fw-bold">Papas del fin del mundo</h5>
+                      <h5 class="card-title fw-bold">Trabajo 2</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
                       <button type="button" class="btn btn-outline-info">Ver más</button>
                     </div>
@@ -128,11 +122,10 @@
                 <div class="card">
                     <img src="./assets/img/card-3.jpg" class="card-img-top" alt="...">
                     <div class="card-body">
-                      <h5 class="card-title fw-bold">Salmones de Alaska</h5>
+                      <h5 class="card-title fw-bold">Trabajo 3</h5>
                       <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam a mauris id purus blandit dapibus.</p>
                       <button type="button" class="btn btn-outline-info text">Ver más</button>
                     </div>
-
                   </div>
               </div>
             </div>
@@ -140,9 +133,9 @@
 
 <!-- form -->
 
-    <section id="contactame">
+    <section id="contacto">
   <!-- texto -->
-  <h2 class="fw-bold">Contáctame</h2>
+  <h2 class="titulo display-3 fw-bold my-5">Contáctame</h2>
   <br>
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
       Etiam a mauris id purus blandit dapibus.
