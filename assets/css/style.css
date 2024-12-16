@@ -2,12 +2,17 @@ body {
     font-family: 'Roboto', sans-serif; /* Asegúrate de que el nombre de la fuente coincida */
 }
 .hero {
-    background-image: url("../img/bg-hero.jpg");
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), 
+                url("../img/bg-hero.jpg");
     background-size: cover; /* Asegura que cubra todo el contenedor */
     background-position: center center; /* Centra la imagen */
     background-attachment: fixed; /* Efecto de paralaje */
     height: 80vh; /* O usa un valor fijo como 600px */
     max-height: 800px; /* Evita que la imagen sea demasiado alta */
+}
+.titulohero {
+padding-top: 400px;
+
 }
 
 .titulo{
@@ -59,10 +64,9 @@ div .col h5{
     padding-bottom: 25px;
 }
 
-.card img{
+/* .card img{
 
-    /* height:230px; */
-}
+    /* height:230px; */ 
 
 #contactame h2{
     font-size: 60px;
